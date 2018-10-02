@@ -2,15 +2,15 @@
 <html lang="nb">
 <head>
 	<link rel="stylesheet" type="text/css" href="stilark.css" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
 	<meta charset="utf-8" />
-	<title>Oppgave 4</title>
+	<title>CSS Layouts</title>
 </head>
 <body>
 	<!--Tittel-->
+	<div class="gridwrapper">
 	<header>
-		<h1>
-			OBLIG1
-		</h1>
+		<h1>OBLIG2</h1>
 	</header>
 	<!--Meny-->
 	<nav>
@@ -19,23 +19,22 @@
 		<li><a href="github.html">Git / Github</a></li>
 		<li><a href="mediatyper.html">Media Typer</a></li>
 		<li><a href="csslayouts.html">CSS Layouts</a></li>
+		<li><a href="oppgave1.html">Oppgave 1</a></li>
 		</ul>
 	</nav>
 	<!--Innhold-->
+<main>
 	<article id="innhold">
-		<h3>Oppgave 4: Webservere</h3>
-		<p>Utført: 18 September 2018</p>
-		<img src="bilder/webserver.png" alt="Bilde av en webserver">
-		<p></p>
+		<h3>CSS Layouts</h3>
+		<p>Utført: 1 Oktober 2018</p>
+		<p>CSS Grid er et 2-dimensjonelt layout-system som bruker både kolloner og rader. Grid vil forrandre måten vi jobber med rutenett-design i nettsider. Man starter med å definere en container som grid ved display:grid, så setter man child-elementer inn i containeren. Samme som flexbox, så har rekkefølgen på elementene ikke noe å si. Dette gjør det lettere å gjøre om rutenettet med media queries. Grid er en av de sterkeste CSS modulene som er gitt ut. De fleste browsere støtter Grid. Chrome, Firefox, Safari og Opera støtter grid. Internet Explorer 10 og 11 støtter grid men syntaxen er utdatert.</p>
+		<p>CSS Flexbox gir en effektiv løsning på å lage rom mellom elementer i en container, selv når bredden ikke er gitt. Derfor navnet "flex". Hovedideen med flexbox er å fylle ut ledig rom på best mulig måte. En flex container kan utvide seg for å fylle ledig rom, eller så blir den mindre for å unngå overlapping. Ulikt Grid, så følger flexbox kun et 1-dimensjonalt system(horisontalt).</p>
 	</article>
-	<!--Linker-->
-	<ul>
-		<li><a href="https://academic.oup.com/nar/article/31/13/3406/2904217">Mfold web server for nucleic acid folding and hybridization prediction</a></li>
-		<li><a href="https://academic.oup.com/nar/article/33/suppl_2/W557/2505422">PHYML Online—a web server for fast maximum likelihood-based phylogenetic inference</a></li>
-	</ul>
+</main>
 	<!--Footer-->
 	<footer>
-		<section>2018 Snorre Widnes	snorrekw@hiof.no</section>
+		<section>Snorre Widnes	snorrekw@hiof.no</section>
 	</footer>
+</div>
 </body>
 </html>

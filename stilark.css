@@ -27,6 +27,13 @@ aside{
 	grid-column: 3;
 	grid-row: 3
 }
+section{
+grid-column: 3;
+grid-row: 3;	
+}
+section img{
+	width: 300px;
+}
 footer{
 	grid-column: 1/4;
 	grid-row: 4;
@@ -90,9 +97,11 @@ h1{
 	line-height: 40px;
 	font-size: 26px;
 	text-align: center;
-	background-image: url("bilder/design.jpeg");
+	background-image: url("bilder/banner.png");
 }
-
+aside section iframe{
+	border:0px;
+}
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	width:960px;
@@ -110,7 +119,7 @@ nav ul {
 }
 nav ul li{
 	display: inline-block;
-	width: 220px;
+	width: 170px;
 }
 nav ul li a{
 	margin-right: 10px;
@@ -120,7 +129,7 @@ nav ul li a{
 	text-align: center;
 	line-height: 40px;
 	font-size: 18px;
-	width: 100px;
+	width: 150px;
 }
 nav ul li a:hover{
 	text-decoration: underline;

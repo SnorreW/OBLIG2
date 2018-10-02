@@ -2,14 +2,16 @@
 <html lang="nb">
 <head>
 	<link rel="stylesheet" type="text/css" href="stilark.css" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
 	<meta charset="utf-8" />
-	<title>Oppgave 3</title>
+	<title>Media typer</title>
 </head>
 <body>
+	<div class="gridwrapper">
 	<!--Tittel-->
 	<header>
 		<h1>
-			OBLIG1
+			OBLIG2
 		</h1>
 	</header>
 	<!--Meny-->
@@ -19,19 +21,35 @@
 		<li><a href="github.html">Git / Github</a></li>
 		<li><a href="mediatyper.html">Media Typer</a></li>
 		<li><a href="csslayouts.html">CSS Layouts</a></li>
+		<li><a href="oppgave1.html">Oppgave 1</a></li>
 		</ul>
 	</nav>
 	<!--Artikkel-->
+	<main>
 	<article id="innhold">
-		<h3>Oppgave 3: Innhold vs design</h3>
-		<p>Utført: 18 September 2018</p>
-		<img src="bilder/design.jpeg" alt="Bilde">
+		<h3>Media typer</h3>
+		<p>Utført: 1 Oktober 2018</p>
+		<ul>
+			<li>All: Passer for alle enheter.</li>
+			<li>Braille: Passer for blindeskrift enheter.</li>
+			<li>Embossed: Passer for blindeskrift printere.</li>
+			<li>Handheld: Passer for håndholdte. Blir nesten ikke brukt lenger på grunn av responsivt design.</li>
+			<li>Print: Passer for sider og dokumenter sett på i print preview mode. Blir brukt til utskrift. Sideoppsett og -brytning er den største forskjellen mellom Print og Skjerm.</li>
+			<li>Projection: Passer for presentasjoner med prosjektorer. Blir nesten ikke brukt lenger på grunn av responsivt design.</li>
+			<li>Screen: Passer for dataskjermer med farge. Vi bruker det det når vi ser på nettsider med en laptop, nettbrett, telefon osv. Man kan si det er det "vanlige" formatet. Det er nyttig for å skille mellom stilark som er tilpasset ulike medietyper.</li>
+			<li>Speech: Passer for opplesning av elementer. </li>
+			<li>Tty: Passer for terminaler og enheter med begrenset display muligheter</li>
+			<li>Tv: Passer for fjernsyns-type enheter.</li>
+		</ul>
 		<p>
+			Med print og speech kan man gi ut en bok i HTML og CSS som kan printes ut og gis ut som lydbok. Andre medietyper dekkes av regler for tilgjengelighet og responsivt design.
 		</p>
 	</article>
+</main>
 	<!--Footer-->
 	<footer>
-		<section>2018 Snorre Widnes	snorrekw@hiof.no</section>
+		<section>Snorre Widnes snorrekw@hiof.no</section>
 	</footer>
+</div>
 </body>
 </html>
