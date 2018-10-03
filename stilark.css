@@ -6,6 +6,7 @@
 
 	float: left;
 }
+/*grid*/
 .gridwrapper{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
@@ -38,6 +39,7 @@ footer{
 	grid-column: 1/4;
 	grid-row: 4;
 }
+/*flexbox*/
 .flexcontainer{
 	display: flex;
    }
@@ -72,9 +74,6 @@ article img{
 	width: 220px;
 	margin-right: 100px;
 }
-/*Tekst i artikkel*/
-article p{
-}
 /*Text*/
 main article p{
 	font-size: 17px;
@@ -91,7 +90,7 @@ article a{
 article{
 	margin-bottom: 50px;
 }
-/*"OBLIG1"*/
+/*"OBLIG2"*/
 h1{
 	padding: 18px 0;
 	line-height: 40px;
@@ -99,9 +98,7 @@ h1{
 	text-align: center;
 	background-image: url("bilder/banner.png");
 }
-aside section iframe{
-	border:0px;
-}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	width:960px;
@@ -134,26 +131,20 @@ nav ul li a{
 nav ul li a:hover{
 	text-decoration: underline;
 }
-nav ul li ul{
-	position: absolute;
-	display: none;
-}
-nav ul li ul li{
-	display: block;
-	border-style: none;
-}
-nav ul li ul li a{
-	text-align: left;
-	line-height: 40px;
-	display: block;
-	margin: 0 0 0 4px;
-}
 /*Side kolonne*/
 aside{
 	background: #ccc;
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
+aside section form input{
+	margin: 10px;
+}
+aside section iframe{
+	border:0px;
+	margin: 10px;
+}
+/*footer*/
 footer{
 	color: #eeeeee;
 	clear: both;
